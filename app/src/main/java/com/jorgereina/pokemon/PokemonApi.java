@@ -1,15 +1,16 @@
 package com.jorgereina.pokemon;
 
-import com.jorgereina.pokemon.model.PokemonResponse;
+import com.jorgereina.pokemon.data.model.PokemonResponse;
 
-import okhttp3.Response;
-import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.http.GET;
+import retrofit2.http.Path;
 
 public interface PokemonApi {
 
     @GET("pokedex/national/")
     Call<PokemonResponse> getPokemon();
-//    Call<ResponseBody> getPokemon();
+
+    @GET("pokemon-shape/{id}")
+    Call<PokemonResponse> getPokemonImage(@Path("id") int id);
 }

@@ -1,6 +1,5 @@
 package com.jorgereina.pokemon.injection.modules;
 
-
 import com.jorgereina.pokemon.App;
 
 import javax.inject.Singleton;

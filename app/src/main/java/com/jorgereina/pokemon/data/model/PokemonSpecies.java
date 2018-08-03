@@ -1,16 +1,10 @@
-package com.jorgereina.pokemon.model;
+package com.jorgereina.pokemon.data.model;
 
-import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
-
-/**
- * Created by jorgereina on 7/28/18.
- */
 
 public class PokemonSpecies {
 
     @SerializedName("name")
-    @Expose
     private String name;
 
     public String getName() {

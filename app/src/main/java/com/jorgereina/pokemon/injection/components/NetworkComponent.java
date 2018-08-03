@@ -1,6 +1,6 @@
 package com.jorgereina.pokemon.injection.components;
 
-import com.jorgereina.pokemon.MainActivity;
+import com.jorgereina.pokemon.ui.MainActivity;
 import com.jorgereina.pokemon.injection.modules.AppModule;
 import com.jorgereina.pokemon.injection.modules.NetworkModule;
 
